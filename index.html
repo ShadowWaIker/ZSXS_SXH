@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+  <meta name="viewport" content="initial-scale=1.0,user-scalable=no"/> 
+  <title>忻州师范学院-双选会</title>
+  <script src="js/jquery-1.7.1.min.js"></script>
+  <script src="js/easyBackground-min.js"></script>
+<LINK REL=StyleSheet HREF="style/style.css" TYPE="text/css" MEDIA=screen>
+<link rel="stylesheet" href="css/styles.css" media="screen">
+<meta name="robots" content="noindex,follow" />
+</head>
+<body>
+<script type="text/javascript">
+
+      $(document).ready(function() {
+    $('body').easyBackground({
+        wrapNeighbours: true
+    });
+      });
+
+  </script>
+<div align="center" style="width=device-width;max-width:500px;margin:0 auto;"><img style="width:100%;" src="./images/title.png" /></div>
+  <div class="container">
+    <div class="login">
+      <h1>报名参与双选会</h1>
+      <form method="post" action="_index.php">
+        <p><input type="text" name="dwmc" value="" placeholder="单位名称"></p>
+        <p><input type="text" name="dwdz" value="" placeholder="单位地址(填写XX省XX市XX区即可)"></p>
+		<p><select size="1" name="dwlx" id="dwlx">
+                <option value="null">单位类型</option> 
+                <option value="其他">其他</option>
+                <option value="学校">学校</option>
+                <option value="金融">金融</option> 
+                <option value="部队">部队</option>
+                <option value="国有企业">国有企业</option> 
+                <option value="三资企业">三资企业</option>
+                <option value="科研设计">科研设计</option> 
+                <option value="医疗卫生">医疗卫生</option>
+				<option value="政府机关">政府机关</option>
+            </select>
+		</p>
+        <p><input type="text" name="lxr" value="" placeholder="联系人"></p>
+		<p><input type="text" name="sjh" value="" placeholder="手机号"></p>
+        <p><input type="text" name="yx" value="" placeholder="邮箱（建议使用QQ邮箱）"></p>
+        <p class="submit"><input type="submit" name="commit" value="提交"></p>
+      </form>
+    </div>
+<!--
+    <div class="login-help">
+      <p>Forgot your password? <a href="#">Click here to reset it</a>.</p>
+    </div>
+-->
+  </div>
+<!--
+<div style="text-align:center;clear:both">
+<p>适用浏览器：FireFox、Chrome、Safari、Opera、傲游、搜狗. 不支持IE8、360、世界之窗。</p>
+<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+</div>
+-->
+</body>
+</html>

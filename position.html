@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+  <meta name="viewport" content="initial-scale=1.0,user-scalable=no"/> 
+  <title>忻州师范学院-双选会</title>
+  <script src="js/jquery-1.7.1.min.js"></script>
+  <script src="js/easyBackground-min.js"></script>
+  <script language="javascript" src="./js/position.js"></script>
+<LINK REL=StyleSheet HREF="style/style.css" TYPE="text/css" MEDIA=screen>
+<link rel="stylesheet" href="css/styles.css" media="screen">
+<meta name="robots" content="noindex,follow" />
+</head>
+<body>
+<script type="text/javascript">
+
+      $(document).ready(function() {
+    $('body').easyBackground({
+        wrapNeighbours: true
+    });
+      });
+
+  </script>
+<div align="center" style="width=device-width;max-width:500px;margin:0 auto;"><img style="width:100%;" src="./images/title.png" /></div>
+  <div class="container">
+    <div class="login">
+      <h1>招聘职位</h1>
+      <form method="post" action="position.php">
+	  <!--
+		<p>Tips：请填写完一个招聘职位信息后点击提交，然后再填写下一个招聘职位信息。</p>
+		-->
+		<div id="readydiv">
+		</div>
+        <p><input type="text" id="zpzw" name="zpzw" value="" placeholder="招聘职位"></p>
+        <p><input type="text" id="zpsl" name="zpsl" value="" placeholder="招聘人数(只可填入数字)"></p>
+		<p><input type="text" id="bz" name="bz" value="" placeholder="备注（需求专业等其他信息）"></p>
+        <p class="submit"><input type="submit" id="send" value="增一个招聘职位"></p>
+		<p>Tips：<br>&emsp;&emsp;填写完毕后关闭本页面即可。<br>&emsp;&emsp;您所填写的招聘信息审核完成后将在我院“掌上忻师”微信小程序（打开微信->搜索->输入掌上忻师即可获取）及“忻州师范学院招生就业处”微信公众号进行公示及宣传。</p>
+		<!--<p class="submit"><input type="button" name="close" value="退出" onclick="javascript:window.open('','_self','');window.close();" /></p>-->
+      </form>
+    </div>
+<!--
+    <div class="login-help">
+      <p>Forgot your password? <a href="#">Click here to reset it</a>.</p>
+    </div>
+-->
+  </div>
+<!--
+<div style="text-align:center;clear:both">
+<p>适用浏览器：FireFox、Chrome、Safari、Opera、傲游、搜狗. 不支持IE8、360、世界之窗。</p>
+<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+</div>
+-->
+</body>
+</html>

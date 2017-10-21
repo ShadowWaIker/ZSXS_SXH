@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+  <meta name="viewport" content="initial-scale=1.0,user-scalable=no"/> 
+  <title>忻州师范学院-双选会</title>
+  <script src="js/jquery-1.7.1.min.js"></script>
+  <script src="js/easyBackground-min.js"></script>
+<LINK REL=StyleSheet HREF="style/style.css" TYPE="text/css" MEDIA=screen>
+<link rel="stylesheet" href="css/styles.css" media="screen">
+<meta name="robots" content="noindex,follow" />
+</head>
+<body>
+<script type="text/javascript">
+
+      $(document).ready(function() {
+    $('body').easyBackground({
+        wrapNeighbours: true
+    });
+      });
+
+  </script>
+<div align="center" style="width=device-width;max-width:500px;margin:0 auto;"><img style="width:100%;" src="./images/title.png" /></div>
+  <div class="container">
+    <div class="login">
+      <h1>登陆</h1>
+      <form method="post" action="login.php">
+        <p><input type="text" name="dwmc" value="" placeholder="单位名称"></p>
+        <p class="submit"><input type="submit" name="commit" value="获取登陆链接"></p>
+		<p>Tips：<br>&emsp;&emsp;填写单位名称后点击获取登陆链接，系统将发送带有登陆链接的邮件到您报名时预留的联系邮箱。<br>&emsp;&emsp;如果未预留邮箱或无法接收邮件请联系：0350-3611123。</p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
