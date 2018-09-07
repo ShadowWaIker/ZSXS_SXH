@@ -28,8 +28,8 @@ X: 版本号, Y: 修订号, Z: 迭代次数
 
 *但是我们仍旧建议您阅读并遵循以下条款：*
 
->`AGPLv3` [GNU GENERAL PUBLIC LICENSE Version 3](https://github.com/ShadowWaIker/zsxs/blob/master/License)
-<br>`AGPLv3中文版` [GNU通用公共授权第三版 (非官方中文简体翻译版)](https://github.com/ShadowWaIker/zsxs/blob/master/License_Zh)
+>`AGPLv3` [GNU GENERAL PUBLIC LICENSE Version 3](https://github.com/ShadowWaIker/ZSXS_YXXY/blob/master/License)
+<br>`AGPLv3中文版` [GNU通用公共授权第三版 (非官方中文简体翻译版)](https://github.com/ShadowWaIker/ZSXS_YXXY/blob/master/License_Zh)
 
 # 特别鸣谢 #
 > 站长素材 *[http://sc.chinaz.com]*
